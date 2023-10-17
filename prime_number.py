@@ -43,7 +43,7 @@ default_args = {
 }
 
 # Nombre total de nombres premiers à calculer
-total_primes = 1000
+total_primes = 2000
 
 # Nombre maximal de nombres premiers à calculer par DAG
 max_primes_per_dag = 1000
