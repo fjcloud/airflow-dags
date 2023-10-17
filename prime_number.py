@@ -59,4 +59,4 @@ for dag_num in range(num_dags):
     dag = create_dag(dag_id, start_range, end_range)
 
 if __name__ == "__main__":
-    dag.cli()
+    dag.test()
