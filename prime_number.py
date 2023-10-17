@@ -14,7 +14,7 @@ def isprime(num):
 
 def calculate_primes(start, end):
     pool = multiprocessing.Pool(3)
-    result = list(filter(lambda x: x is not None, pool.map(isprime, range(start, end)))
+    result = list(filter(lambda x: x is not None, pool.map(isprime, range(start, end))))
     return result
 
 def run_prime_calculation(start, end):
